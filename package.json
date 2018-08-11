@@ -1,0 +1,24 @@
+{
+  "name": "fflegacy-club",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/bergren2/fflegacy-club.git",
+  "author": "bergren2 <dan@heymrbass.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.3",
+    "js-yaml": "^3.12.0",
+    "passport": "^0.4.0",
+    "passport-oauth2": "^1.4.0",
+    "yahoo-fantasy": "^3.0.3"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  }
+}
